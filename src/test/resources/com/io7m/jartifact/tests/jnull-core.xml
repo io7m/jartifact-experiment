@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <lst name="responseHeader">
+    <int name="status">0</int>
+    <int name="QTime">0</int>
+    <lst name="params">
+      <str name="q">g:"com.io7m.jnull" AND a:"io7m-jnull-core"</str>
+      <str name="core">gav</str>
+      <str name="indent">off</str>
+      <str name="fl">id,g,a,v,p,ec,timestamp,tags</str>
+      <str name="sort">score desc,timestamp desc,g asc,a asc,v desc</str>
+      <str name="wt">xml</str>
+      <str name="version">2.2</str>
+    </lst>
+  </lst>
+  <result name="response" numFound="3" start="0">
+    <doc>
+      <str name="a">io7m-jnull-core</str>
+      <arr name="ec">
+        <str>-javadoc.jar</str>
+        <str>-sources.jar</str>
+        <str>-test-sources.jar</str>
+        <str>.jar</str>
+        <str>.pom</str>
+      </arr>
+      <str name="g">com.io7m.jnull</str>
+      <str name="id">com.io7m.jnull:io7m-jnull-core:1.0.2</str>
+      <str name="p">bundle</str>
+      <arr name="tags">
+        <str>pointer</str>
+        <str>core</str>
+        <str>handling</str>
+        <str>null</str>
+      </arr>
+      <long name="timestamp">1470166445000</long>
+      <str name="v">1.0.2</str>
+    </doc>
+    <doc>
+      <str name="a">io7m-jnull-core</str>
+      <arr name="ec">
+        <str>-javadoc.jar</str>
+        <str>-sources.jar</str>
+        <str>-test-sources.jar</str>
+        <str>.jar</str>
+        <str>.pom</str>
+      </arr>
+      <str name="g">com.io7m.jnull</str>
+      <str name="id">com.io7m.jnull:io7m-jnull-core:1.0.1</str>
+      <str name="p">jar</str>
+      <arr name="tags">
+        <str>pointer</str>
+        <str>core</str>
+        <str>handling</str>
+        <str>null</str>
+      </arr>
+      <long name="timestamp">1439069385000</long>
+      <str name="v">1.0.1</str>
+    </doc>
+    <doc>
+      <str name="a">io7m-jnull-core</str>
+      <arr name="ec">
+        <str>-sources.jar</str>
+        <str>-javadoc.jar</str>
+        <str>.jar</str>
+        <str>.pom</str>
+      </arr>
+      <str name="g">com.io7m.jnull</str>
+      <str name="id">com.io7m.jnull:io7m-jnull-core:1.0.0</str>
+      <str name="p">jar</str>
+      <arr name="tags">
+        <str>pointer</str>
+        <str>core</str>
+        <str>handling</str>
+        <str>null</str>
+      </arr>
+      <long name="timestamp">1403443545000</long>
+      <str name="v">1.0.0</str>
+    </doc>
+  </result>
+</response>

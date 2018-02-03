@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <lst name="responseHeader">
+    <int name="status">0</int>
+    <int name="QTime">0</int>
+    <lst name="params">
+      <str name="q">g:"com.io7m.nonexistent" AND a:"nonexistent"</str>
+      <str name="core">gav</str>
+      <str name="indent">off</str>
+      <str name="fl">id,g,a,v,p,ec,timestamp,tags</str>
+      <str name="sort">score desc,timestamp desc,g asc,a asc,v desc</str>
+      <str name="wt">xml</str>
+      <str name="version">2.2</str>
+    </lst>
+  </lst>
+  <result name="response" numFound="0" start="0"/>
+</response>
